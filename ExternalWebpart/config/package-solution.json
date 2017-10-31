@@ -1,0 +1,11 @@
+{
+  "solution": {
+    "name": "external-webpart-client-side-solution",
+    "id": "e0344c2b-7607-4347-9f37-8fa24b1d365c",
+    "version": "1.0.0.0",
+    "skipFeatureDeployment": false
+  },
+  "paths": {
+    "zippedPackage": "solution/external-webpart.sppkg"
+  }
+}

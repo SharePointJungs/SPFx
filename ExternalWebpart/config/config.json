@@ -1,0 +1,30 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/externalWebpart/ExternalWebpartWebPart.js",
+      "manifest": "./src/webparts/externalWebpart/ExternalWebpartWebPart.manifest.json",
+      "outputPath": "./dist/external-webpart.bundle.js"
+    }
+  ],
+  "externals": {
+    "jquery": {
+      "path": "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js",
+      "globalName": "jquery"
+    },
+    "angular": {
+      "path": "https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js",
+      "globalName": "angular",
+      "globalDependencies": [
+        "jquery"
+      ]
+    },
+    "kendo": {
+      "path": "https://kendo.cdn.telerik.com/2017.2.621/js/kendo.all.min.js",
+      "globalName": "kendo",
+      "globalDependencies": [
+        "jquery",
+        "angular"
+      ]
+    }
+  }
+}
